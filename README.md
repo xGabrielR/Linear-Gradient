@@ -1,5 +1,5 @@
 # Linear Gradient Descent Project
-## Project for an academic papar.
+## Project for an academic paper.
 
 ## 1.0. Info Box
 - gradient.py is gradient descent application with streamlit.
