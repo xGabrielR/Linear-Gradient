@@ -8,6 +8,18 @@ from matplotlib import pyplot as plt
 st.set_page_config( layout='wide' )
 
 class Grad( object ):
+	'''
+	__init__() start functions to use
+		- linreg -> linear compute function.
+		- loss   -> loss function to gradient.
+		- gradient -> compute the gradient.
+	set_html()
+		- Load html and css for streamlit app.
+	geral_gradient()
+		- Compute gradient with loop and return dict with informations.
+	plot_charts()
+		- Show gradient steps and other plots.
+	'''
 	def __init__( self ):
 		self.linreg   = lambda x, a=1, b=1: a * x + b
 		self.loss     = lambda ytrue, yhat: .5 * ( ytrue - yhat ) * ( ytrue - yhat )
