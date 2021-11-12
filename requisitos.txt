@@ -1,0 +1,13 @@
+		Gradient
+		
+I -> Criar as funções para as determinadas atividades
+	Linreg, Loss, Gradient
+	
+II -> Desenvolver uma reta linear com os pontos de teste
+
+III -> Desenvolver os passos do gradiente:
+	errors, slope, intercept, gradients
+	yhat, error, derivativeA, derivativeB, eta upgrade
+
+IV -> Mostrar em formato de gráficos o gradiente:
+	modelo A (Slope), modelo B (Intercept), Slope & Intercept Errors, Errors.
