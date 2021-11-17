@@ -208,7 +208,6 @@ class Grad( object ):
 			    'bnew':bnew,
 			    'enew':enew}
 
-		#return x, y, A, B, errors, slope, intercept, gradA, gradB, anew, bnew, enew
 		return info
 
 	def plot_charts( self, x, y, A, B, errors, slope, intercept, gradA, gradB, anew, bnew, enew ):
